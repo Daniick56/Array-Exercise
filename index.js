@@ -10,3 +10,7 @@ let variety = ["Daniel", 20, "alto", 10];
 //creando un array con el constructor Array();
 let colors = Array("red", "green", "purple");
 
+//creando una secuencia numerica con el metodo array.from();
+let secuency = "123456789";
+let secuencyArray = Array.from(secuency);
+
