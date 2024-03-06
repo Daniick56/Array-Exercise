@@ -21,3 +21,7 @@ const longitudArray = 8;
 
 const miArray = [Array(longitudArray).fill(valorRepetido)];
 
+//Crear un array a partir de una cadena de texto usando el método String.split()
+let cadena = "uno,dos,tres,cuatro,cinco";
+let cadenaSplitted = cadena.split(",");
+
