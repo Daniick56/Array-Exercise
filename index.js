@@ -69,3 +69,7 @@ colores.pop();
 let pares = [4, 6, 8, 10];
 pares.unshift(2);
 
+//Eliminar el primer elemento del array usando shift();
+let impares = [2, 3, 5, 7, 9];
+impares.shift(2);
+
