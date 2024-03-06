@@ -65,3 +65,7 @@ letters.push(newLetter);
 let colores = ["rojo", "verde", "amarillo", "rosado"];
 colores.pop();
 
+//Agregar elementos al principio del array usando unshift();
+let pares = [4, 6, 8, 10];
+pares.unshift(2);
+
