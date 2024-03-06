@@ -77,3 +77,7 @@ impares.shift(2);
 let numArrays = [1, 2, 3, 4, 5];
 let sliceArray = numArrays.slice(0, 3);
 
+//Convertir un array en un string usando join
+let nameArray = ["Mi", "nombre", "es", "Daniel"];
+let stringArray = nameArray.join(", ");
+
