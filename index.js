@@ -14,3 +14,10 @@ let colors = Array("red", "green", "purple");
 let secuency = "123456789";
 let secuencyArray = Array.from(secuency);
 
+
+// Crear un array repitiendo un valor utilizando spread
+const valorRepetido = 5;
+const longitudArray = 8;
+
+const miArray = [...Array(longitudArray).fill(valorRepetido)];
+
