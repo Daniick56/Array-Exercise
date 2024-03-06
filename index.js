@@ -61,3 +61,7 @@ let letters = ["a", "b", "c"];
 let newLetter = "d";
 letters.push(newLetter);
 
+//eliminando elementos al final con pop();
+let colores = ["rojo", "verde", "amarillo", "rosado"];
+colores.pop();
+
