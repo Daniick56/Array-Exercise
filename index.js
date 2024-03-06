@@ -85,3 +85,9 @@ let stringArray = nameArray.join(", ");
 let nmbrs = [1, 2, 3, 4, 5, 6];
 let copiaNmbrs = nmbrs.slice(-3);
 
+//Eliminar una porción del array sin modificar el original usando slice
+let arreglo = [1, 2, 3, 4, 5];
+  //si quisieramos eliminar el 2 y el 3 de la lista:
+let ArrayModificado = [...arreglo.slice(0, 1), ...arreglo.slice(-2)];
+
+
