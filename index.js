@@ -81,3 +81,7 @@ let sliceArray = numArrays.slice(0, 3);
 let nameArray = ["Mi", "nombre", "es", "Daniel"];
 let stringArray = nameArray.join(", ");
 
+//creando una copia con slice dnadole como parametro un indice negativo
+let nmbrs = [1, 2, 3, 4, 5, 6];
+let copiaNmbrs = nmbrs.slice(-3);
+
