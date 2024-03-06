@@ -34,5 +34,5 @@ let arrayConDuplicados = [1, 2, 2, 3, 4, 4, 5];
 
 let arraySinDuplicados = new Set(arrayConDuplicados);
 
-let arrayUnico = [...conjuntoSinDuplicados];
+let arrayUnico = [...arraySinDuplicados];
 
