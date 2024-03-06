@@ -73,3 +73,7 @@ pares.unshift(2);
 let impares = [2, 3, 5, 7, 9];
 impares.shift(2);
 
+//Obtener una porción del array usando slice
+let numArrays = [1, 2, 3, 4, 5];
+let sliceArray = numArrays.slice(0, 3);
+
