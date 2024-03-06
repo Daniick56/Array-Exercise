@@ -34,7 +34,7 @@ let arrayConDuplicados = [1, 2, 2, 3, 4, 4, 5];
 
 let arraySinDuplicados = new Set(arrayConDuplicados);
 
-//let arrayUnico = [...arraySinDuplicados];
+let arrayUnico = [...arraySinDuplicados];
 
 //Creando un array con una función que genere valores dinámicamente
 function generarArray(n) {
