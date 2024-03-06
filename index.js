@@ -56,3 +56,8 @@ let arrayGenerado = generarArray(5);
 let numbers = [1, 2, 3, 4, 5];
 let longitud = numbers.length;
 
+//agregar elementos al final de un array con .push();
+let letters = ["a", "b", "c"];
+let newLetter = "d";
+letters.push(newLetter);
+
