@@ -29,3 +29,10 @@ let cadenaSplitted = cadena.split(",");
 let array1 = ["lunes", "martes", "miercoles"];
 let array2 = [...array1, "jueves", "viernes"];
 
+//Creando un array con valores únicos utilizando el método Set() y el operador spread ( ... )
+let arrayConDuplicados = [1, 2, 2, 3, 4, 4, 5];
+
+let arraySinDuplicados = new Set(arrayConDuplicados);
+
+let arrayUnico = [...conjuntoSinDuplicados];
+
