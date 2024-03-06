@@ -90,4 +90,7 @@ let arreglo = [1, 2, 3, 4, 5];
   //si quisieramos eliminar el 2 y el 3 de la lista:
 let ArrayModificado = [...arreglo.slice(0, 1), ...arreglo.slice(-2)];
 
-
+// Agregar múltiples elementos al principio del array utilizando unshift() con spread operator
+let Arraymultiple = [3, 4, 5];
+let newElements = [1, 2];
+Arraymultiple.unshift(...newElements);
