@@ -34,5 +34,21 @@ let arrayConDuplicados = [1, 2, 2, 3, 4, 4, 5];
 
 let arraySinDuplicados = new Set(arrayConDuplicados);
 
-let arrayUnico = [...conjuntoSinDuplicados];
+//let arrayUnico = [...conjuntoSinDuplicados];
+
+//Creando un array con una función que genere valores dinámicamente
+function generarArray(n) {
+    let resultado = [];
+  
+    for (let i = 0; i < n; i++) {
+      // generando valores de 2 en 2
+      let nuevoValor = i * 2;
+      resultado.push(nuevoValor);
+    }
+  
+    return resultado;
+  }
+  
+    // Llamar a la función para generar un array con 5 valores de 2 en 2
+let arrayGenerado = generarArray(5);
 
