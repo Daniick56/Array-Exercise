@@ -25,3 +25,7 @@ const miArray = [Array(longitudArray).fill(valorRepetido)];
 let cadena = "uno,dos,tres,cuatro,cinco";
 let cadenaSplitted = cadena.split(",");
 
+//crando un array combinando dos arrays existentes utilizando el operador spread ( ... )
+let array1 = ["lunes", "martes", "miercoles"];
+let array2 = [...array1, "jueves", "viernes"];
+
