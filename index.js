@@ -52,3 +52,7 @@ function generarArray(n) {
     // Llamar a la función para generar un array con 5 valores de 2 en 2
 let arrayGenerado = generarArray(5);
 
+//para saber la longitud de un array
+let numbers = [1, 2, 3, 4, 5];
+let longitud = numbers.length;
+
